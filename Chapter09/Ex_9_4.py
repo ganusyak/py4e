@@ -15,7 +15,7 @@ for line in handle :
     email = splitLine[1]
     emailHist[email] = emailHist.get(email, 0) + 1                 # and adding it to the list
 
-                          # dictionary : email, occurencies
+                          # diction : email, occurencies
 
 # top email counters
 topMail = None                           # address
